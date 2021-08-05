@@ -1,0 +1,1116 @@
+iostreams/http_client.o: iostreams/http_client.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11.1.0/iostream \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+ /usr/include/c++/11.1.0/pstl/pstl_config.h \
+ /usr/include/c++/11.1.0/ostream /usr/include/c++/11.1.0/ios \
+ /usr/include/c++/11.1.0/iosfwd /usr/include/c++/11.1.0/bits/stringfwd.h \
+ /usr/include/c++/11.1.0/bits/memoryfwd.h \
+ /usr/include/c++/11.1.0/bits/postypes.h /usr/include/c++/11.1.0/cwchar \
+ /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h \
+ /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
+ /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/c++/11.1.0/exception \
+ /usr/include/c++/11.1.0/bits/exception.h \
+ /usr/include/c++/11.1.0/bits/exception_ptr.h \
+ /usr/include/c++/11.1.0/bits/exception_defines.h \
+ /usr/include/c++/11.1.0/bits/cxxabi_init_exception.h \
+ /usr/include/c++/11.1.0/typeinfo \
+ /usr/include/c++/11.1.0/bits/hash_bytes.h /usr/include/c++/11.1.0/new \
+ /usr/include/c++/11.1.0/bits/nested_exception.h \
+ /usr/include/c++/11.1.0/bits/move.h /usr/include/c++/11.1.0/type_traits \
+ /usr/include/c++/11.1.0/bits/char_traits.h \
+ /usr/include/c++/11.1.0/bits/stl_algobase.h \
+ /usr/include/c++/11.1.0/bits/functexcept.h \
+ /usr/include/c++/11.1.0/bits/cpp_type_traits.h \
+ /usr/include/c++/11.1.0/ext/type_traits.h \
+ /usr/include/c++/11.1.0/ext/numeric_traits.h \
+ /usr/include/c++/11.1.0/bits/stl_pair.h \
+ /usr/include/c++/11.1.0/bits/stl_iterator_base_types.h \
+ /usr/include/c++/11.1.0/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/11.1.0/bits/concept_check.h \
+ /usr/include/c++/11.1.0/debug/assertions.h \
+ /usr/include/c++/11.1.0/bits/stl_iterator.h \
+ /usr/include/c++/11.1.0/bits/ptr_traits.h \
+ /usr/include/c++/11.1.0/debug/debug.h \
+ /usr/include/c++/11.1.0/bits/predefined_ops.h \
+ /usr/include/c++/11.1.0/cstdint \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/types.h \
+ /usr/include/bits/timesize.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/stdint-intn.h \
+ /usr/include/bits/stdint-uintn.h \
+ /usr/include/c++/11.1.0/bits/localefwd.h \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++locale.h \
+ /usr/include/c++/11.1.0/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/11.1.0/cctype \
+ /usr/include/ctype.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/c++/11.1.0/bits/ios_base.h \
+ /usr/include/c++/11.1.0/ext/atomicity.h \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/gthr.h \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/struct_timespec.h /usr/include/bits/sched.h \
+ /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
+ /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
+ /usr/include/bits/types/struct_itimerspec.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+ /usr/include/sys/single_threaded.h \
+ /usr/include/c++/11.1.0/bits/locale_classes.h \
+ /usr/include/c++/11.1.0/string /usr/include/c++/11.1.0/bits/allocator.h \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/11.1.0/ext/new_allocator.h \
+ /usr/include/c++/11.1.0/bits/ostream_insert.h \
+ /usr/include/c++/11.1.0/bits/cxxabi_forced.h \
+ /usr/include/c++/11.1.0/bits/stl_function.h \
+ /usr/include/c++/11.1.0/backward/binders.h \
+ /usr/include/c++/11.1.0/bits/range_access.h \
+ /usr/include/c++/11.1.0/initializer_list \
+ /usr/include/c++/11.1.0/bits/basic_string.h \
+ /usr/include/c++/11.1.0/ext/alloc_traits.h \
+ /usr/include/c++/11.1.0/bits/alloc_traits.h \
+ /usr/include/c++/11.1.0/bits/stl_construct.h \
+ /usr/include/c++/11.1.0/string_view \
+ /usr/include/c++/11.1.0/bits/functional_hash.h \
+ /usr/include/c++/11.1.0/bits/ranges_base.h \
+ /usr/include/c++/11.1.0/bits/string_view.tcc \
+ /usr/include/c++/11.1.0/ext/string_conversions.h \
+ /usr/include/c++/11.1.0/cstdlib /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/11.1.0/bits/std_abs.h /usr/include/c++/11.1.0/cstdio \
+ /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
+ /usr/include/bits/types/__fpos64_t.h \
+ /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
+ /usr/include/c++/11.1.0/cerrno /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
+ /usr/include/c++/11.1.0/bits/charconv.h \
+ /usr/include/c++/11.1.0/bits/basic_string.tcc \
+ /usr/include/c++/11.1.0/bits/locale_classes.tcc \
+ /usr/include/c++/11.1.0/system_error \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/error_constants.h \
+ /usr/include/c++/11.1.0/stdexcept /usr/include/c++/11.1.0/streambuf \
+ /usr/include/c++/11.1.0/bits/streambuf.tcc \
+ /usr/include/c++/11.1.0/bits/basic_ios.h \
+ /usr/include/c++/11.1.0/bits/locale_facets.h \
+ /usr/include/c++/11.1.0/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/11.1.0/bits/streambuf_iterator.h \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/11.1.0/bits/locale_facets.tcc \
+ /usr/include/c++/11.1.0/bits/basic_ios.tcc \
+ /usr/include/c++/11.1.0/bits/ostream.tcc /usr/include/c++/11.1.0/istream \
+ /usr/include/c++/11.1.0/bits/istream.tcc \
+ ../../../include/asio/ts/internet.hpp \
+ ../../../include/asio/ip/address.hpp \
+ ../../../include/asio/detail/config.hpp /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/version.h \
+ ../../../include/asio/detail/throw_exception.hpp \
+ ../../../include/asio/detail/string_view.hpp \
+ ../../../include/asio/detail/type_traits.hpp \
+ ../../../include/asio/error_code.hpp \
+ ../../../include/asio/detail/push_options.hpp \
+ ../../../include/asio/detail/pop_options.hpp \
+ ../../../include/asio/impl/error_code.ipp \
+ /usr/include/c++/11.1.0/cstring /usr/include/string.h \
+ /usr/include/strings.h \
+ ../../../include/asio/detail/local_free_on_block_exit.hpp \
+ ../../../include/asio/detail/socket_types.hpp /usr/include/sys/ioctl.h \
+ /usr/include/bits/ioctls.h /usr/include/asm/ioctls.h \
+ /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
+ /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
+ /usr/include/bits/ioctl-types.h /usr/include/sys/ttydefaults.h \
+ /usr/include/poll.h /usr/include/sys/poll.h /usr/include/bits/poll.h \
+ /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ /usr/include/bits/struct_stat.h /usr/include/bits/statx.h \
+ /usr/include/linux/stat.h /usr/include/linux/types.h \
+ /usr/include/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
+ /usr/include/asm/posix_types_64.h /usr/include/asm-generic/posix_types.h \
+ /usr/include/bits/statx-generic.h \
+ /usr/include/bits/types/struct_statx_timestamp.h \
+ /usr/include/bits/types/struct_statx.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/types/struct_iovec.h /usr/include/linux/falloc.h \
+ /usr/include/sys/socket.h /usr/include/bits/socket.h \
+ /usr/include/bits/socket_type.h /usr/include/bits/sockaddr.h \
+ /usr/include/asm/socket.h /usr/include/asm-generic/socket.h \
+ /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h \
+ /usr/include/bits/types/struct_osockaddr.h /usr/include/sys/uio.h \
+ /usr/include/bits/uio_lim.h /usr/include/bits/uio-ext.h \
+ /usr/include/sys/un.h /usr/include/netinet/in.h /usr/include/bits/in.h \
+ /usr/include/netinet/tcp.h /usr/include/arpa/inet.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/bits/types/sigevent_t.h \
+ /usr/include/bits/types/__sigval_t.h /usr/include/bits/netdb.h \
+ /usr/include/net/if.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ ../../../include/asio/ip/address_v4.hpp \
+ ../../../include/asio/detail/array.hpp /usr/include/c++/11.1.0/array \
+ /usr/include/c++/11.1.0/utility \
+ /usr/include/c++/11.1.0/bits/stl_relops.h \
+ ../../../include/asio/detail/cstdint.hpp \
+ ../../../include/asio/detail/winsock_init.hpp \
+ /usr/include/c++/11.1.0/functional /usr/include/c++/11.1.0/tuple \
+ /usr/include/c++/11.1.0/bits/uses_allocator.h \
+ /usr/include/c++/11.1.0/bits/invoke.h \
+ /usr/include/c++/11.1.0/bits/refwrap.h \
+ /usr/include/c++/11.1.0/bits/std_function.h \
+ /usr/include/c++/11.1.0/unordered_map \
+ /usr/include/c++/11.1.0/ext/aligned_buffer.h \
+ /usr/include/c++/11.1.0/bits/hashtable.h \
+ /usr/include/c++/11.1.0/bits/hashtable_policy.h \
+ /usr/include/c++/11.1.0/bits/node_handle.h \
+ /usr/include/c++/11.1.0/bits/unordered_map.h \
+ /usr/include/c++/11.1.0/bits/erase_if.h /usr/include/c++/11.1.0/vector \
+ /usr/include/c++/11.1.0/bits/stl_uninitialized.h \
+ /usr/include/c++/11.1.0/bits/stl_vector.h \
+ /usr/include/c++/11.1.0/bits/stl_bvector.h \
+ /usr/include/c++/11.1.0/bits/vector.tcc \
+ /usr/include/c++/11.1.0/bits/stl_algo.h \
+ /usr/include/c++/11.1.0/bits/algorithmfwd.h \
+ /usr/include/c++/11.1.0/bits/stl_heap.h \
+ /usr/include/c++/11.1.0/bits/stl_tempbuf.h \
+ /usr/include/c++/11.1.0/bits/uniform_int_dist.h \
+ ../../../include/asio/ip/impl/address_v4.hpp \
+ ../../../include/asio/detail/throw_error.hpp \
+ ../../../include/asio/detail/impl/throw_error.ipp \
+ ../../../include/asio/system_error.hpp \
+ ../../../include/asio/ip/impl/address_v4.ipp \
+ /usr/include/c++/11.1.0/climits /usr/include/c++/11.1.0/limits \
+ ../../../include/asio/error.hpp ../../../include/asio/impl/error.ipp \
+ ../../../include/asio/detail/socket_ops.hpp \
+ ../../../include/asio/detail/memory.hpp /usr/include/c++/11.1.0/memory \
+ /usr/include/c++/11.1.0/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/11.1.0/bits/align.h /usr/include/c++/11.1.0/bit \
+ /usr/include/c++/11.1.0/bits/unique_ptr.h \
+ /usr/include/c++/11.1.0/bits/shared_ptr.h \
+ /usr/include/c++/11.1.0/bits/shared_ptr_base.h \
+ /usr/include/c++/11.1.0/bits/allocated_ptr.h \
+ /usr/include/c++/11.1.0/ext/concurrence.h \
+ /usr/include/c++/11.1.0/bits/shared_ptr_atomic.h \
+ /usr/include/c++/11.1.0/bits/atomic_base.h \
+ /usr/include/c++/11.1.0/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/11.1.0/backward/auto_ptr.h \
+ /usr/include/c++/11.1.0/pstl/glue_memory_defs.h \
+ /usr/include/c++/11.1.0/pstl/execution_defs.h \
+ ../../../include/asio/detail/impl/socket_ops.ipp \
+ ../../../include/asio/detail/assert.hpp /usr/include/c++/11.1.0/cassert \
+ /usr/include/assert.h ../../../include/asio/ip/address_v6.hpp \
+ ../../../include/asio/ip/impl/address_v6.hpp \
+ ../../../include/asio/ip/impl/address_v6.ipp \
+ ../../../include/asio/ip/bad_address_cast.hpp \
+ ../../../include/asio/ip/impl/address.hpp \
+ ../../../include/asio/ip/impl/address.ipp \
+ ../../../include/asio/ip/address_v4_iterator.hpp \
+ ../../../include/asio/ip/address_v4_range.hpp \
+ ../../../include/asio/ip/address_v6_iterator.hpp \
+ ../../../include/asio/ip/address_v6_range.hpp \
+ ../../../include/asio/ip/basic_endpoint.hpp \
+ ../../../include/asio/ip/detail/endpoint.hpp \
+ ../../../include/asio/ip/detail/impl/endpoint.ipp \
+ /usr/include/c++/11.1.0/sstream /usr/include/c++/11.1.0/bits/sstream.tcc \
+ ../../../include/asio/ip/impl/basic_endpoint.hpp \
+ ../../../include/asio/ip/basic_resolver_query.hpp \
+ ../../../include/asio/ip/resolver_query_base.hpp \
+ ../../../include/asio/ip/resolver_base.hpp \
+ ../../../include/asio/ip/basic_resolver_entry.hpp \
+ ../../../include/asio/ip/basic_resolver_iterator.hpp \
+ /usr/include/c++/11.1.0/cstddef /usr/include/c++/11.1.0/iterator \
+ /usr/include/c++/11.1.0/bits/stream_iterator.h \
+ ../../../include/asio/ip/basic_resolver.hpp \
+ ../../../include/asio/any_io_executor.hpp \
+ ../../../include/asio/execution.hpp \
+ ../../../include/asio/execution/allocator.hpp \
+ ../../../include/asio/execution/executor.hpp \
+ ../../../include/asio/execution/execute.hpp \
+ ../../../include/asio/execution/detail/as_invocable.hpp \
+ ../../../include/asio/detail/atomic_count.hpp \
+ /usr/include/c++/11.1.0/atomic \
+ ../../../include/asio/execution/receiver_invocation_error.hpp \
+ ../../../include/asio/execution/impl/receiver_invocation_error.ipp \
+ ../../../include/asio/execution/set_done.hpp \
+ ../../../include/asio/traits/set_done_member.hpp \
+ ../../../include/asio/traits/set_done_free.hpp \
+ ../../../include/asio/execution/set_error.hpp \
+ ../../../include/asio/traits/set_error_member.hpp \
+ ../../../include/asio/traits/set_error_free.hpp \
+ ../../../include/asio/execution/set_value.hpp \
+ ../../../include/asio/detail/variadic_templates.hpp \
+ ../../../include/asio/traits/set_value_member.hpp \
+ ../../../include/asio/traits/set_value_free.hpp \
+ ../../../include/asio/execution/detail/as_receiver.hpp \
+ ../../../include/asio/traits/execute_member.hpp \
+ ../../../include/asio/traits/execute_free.hpp \
+ ../../../include/asio/execution/invocable_archetype.hpp \
+ ../../../include/asio/traits/equality_comparable.hpp \
+ ../../../include/asio/execution/scheduler.hpp \
+ ../../../include/asio/execution/schedule.hpp \
+ ../../../include/asio/traits/schedule_member.hpp \
+ ../../../include/asio/traits/schedule_free.hpp \
+ ../../../include/asio/execution/sender.hpp \
+ ../../../include/asio/execution/detail/void_receiver.hpp \
+ ../../../include/asio/execution/receiver.hpp \
+ ../../../include/asio/execution/connect.hpp \
+ ../../../include/asio/execution/detail/as_operation.hpp \
+ ../../../include/asio/traits/start_member.hpp \
+ ../../../include/asio/execution/operation_state.hpp \
+ ../../../include/asio/execution/start.hpp \
+ ../../../include/asio/traits/start_free.hpp \
+ ../../../include/asio/traits/connect_member.hpp \
+ ../../../include/asio/traits/connect_free.hpp \
+ ../../../include/asio/is_applicable_property.hpp \
+ ../../../include/asio/traits/query_static_constexpr_member.hpp \
+ ../../../include/asio/traits/static_query.hpp \
+ ../../../include/asio/execution/any_executor.hpp \
+ ../../../include/asio/detail/cstddef.hpp \
+ ../../../include/asio/detail/executor_function.hpp \
+ ../../../include/asio/detail/handler_alloc_helpers.hpp \
+ ../../../include/asio/detail/noncopyable.hpp \
+ ../../../include/asio/detail/recycling_allocator.hpp \
+ ../../../include/asio/detail/thread_context.hpp \
+ ../../../include/asio/detail/call_stack.hpp \
+ ../../../include/asio/detail/tss_ptr.hpp \
+ ../../../include/asio/detail/keyword_tss_ptr.hpp \
+ ../../../include/asio/detail/impl/thread_context.ipp \
+ ../../../include/asio/detail/thread_info_base.hpp \
+ ../../../include/asio/multiple_exceptions.hpp \
+ ../../../include/asio/impl/multiple_exceptions.ipp \
+ ../../../include/asio/associated_allocator.hpp \
+ ../../../include/asio/handler_alloc_hook.hpp \
+ ../../../include/asio/impl/handler_alloc_hook.ipp \
+ ../../../include/asio/detail/handler_invoke_helpers.hpp \
+ ../../../include/asio/handler_invoke_hook.hpp \
+ ../../../include/asio/detail/non_const_lvalue.hpp \
+ ../../../include/asio/detail/scoped_ptr.hpp \
+ ../../../include/asio/execution/bad_executor.hpp \
+ ../../../include/asio/execution/impl/bad_executor.ipp \
+ ../../../include/asio/execution/blocking.hpp \
+ ../../../include/asio/prefer.hpp \
+ ../../../include/asio/traits/prefer_free.hpp \
+ ../../../include/asio/traits/prefer_member.hpp \
+ ../../../include/asio/traits/require_free.hpp \
+ ../../../include/asio/traits/require_member.hpp \
+ ../../../include/asio/traits/static_require.hpp \
+ ../../../include/asio/query.hpp \
+ ../../../include/asio/traits/query_member.hpp \
+ ../../../include/asio/traits/query_free.hpp \
+ ../../../include/asio/require.hpp \
+ ../../../include/asio/execution/blocking_adaptation.hpp \
+ ../../../include/asio/detail/event.hpp \
+ ../../../include/asio/detail/posix_event.hpp \
+ ../../../include/asio/detail/impl/posix_event.ipp \
+ ../../../include/asio/detail/mutex.hpp \
+ ../../../include/asio/detail/posix_mutex.hpp \
+ ../../../include/asio/detail/scoped_lock.hpp \
+ ../../../include/asio/detail/impl/posix_mutex.ipp \
+ ../../../include/asio/execution/bulk_execute.hpp \
+ ../../../include/asio/execution/bulk_guarantee.hpp \
+ ../../../include/asio/execution/detail/bulk_sender.hpp \
+ ../../../include/asio/traits/bulk_execute_member.hpp \
+ ../../../include/asio/traits/bulk_execute_free.hpp \
+ ../../../include/asio/execution/context.hpp /usr/include/c++/11.1.0/any \
+ ../../../include/asio/execution/context_as.hpp \
+ ../../../include/asio/execution/mapping.hpp \
+ ../../../include/asio/execution/occupancy.hpp \
+ ../../../include/asio/execution/outstanding_work.hpp \
+ ../../../include/asio/execution/prefer_only.hpp \
+ ../../../include/asio/execution/relationship.hpp \
+ ../../../include/asio/execution/submit.hpp \
+ ../../../include/asio/execution/detail/submit_receiver.hpp \
+ ../../../include/asio/traits/submit_member.hpp \
+ ../../../include/asio/traits/submit_free.hpp \
+ ../../../include/asio/execution_context.hpp \
+ ../../../include/asio/impl/execution_context.hpp \
+ ../../../include/asio/detail/handler_type_requirements.hpp \
+ ../../../include/asio/async_result.hpp \
+ ../../../include/asio/detail/service_registry.hpp \
+ ../../../include/asio/detail/impl/service_registry.hpp \
+ ../../../include/asio/detail/impl/service_registry.ipp \
+ ../../../include/asio/impl/execution_context.ipp \
+ ../../../include/asio/detail/io_object_impl.hpp \
+ ../../../include/asio/io_context.hpp \
+ ../../../include/asio/detail/wrapped_handler.hpp \
+ ../../../include/asio/detail/bind_handler.hpp \
+ ../../../include/asio/associated_executor.hpp \
+ ../../../include/asio/is_executor.hpp \
+ ../../../include/asio/detail/is_executor.hpp \
+ ../../../include/asio/system_executor.hpp \
+ ../../../include/asio/impl/system_executor.hpp \
+ ../../../include/asio/detail/executor_op.hpp \
+ ../../../include/asio/detail/fenced_block.hpp \
+ ../../../include/asio/detail/std_fenced_block.hpp \
+ ../../../include/asio/detail/scheduler_operation.hpp \
+ ../../../include/asio/detail/handler_tracking.hpp \
+ ../../../include/asio/detail/impl/handler_tracking.ipp \
+ ../../../include/asio/detail/op_queue.hpp \
+ ../../../include/asio/detail/global.hpp \
+ ../../../include/asio/detail/posix_global.hpp \
+ ../../../include/asio/system_context.hpp \
+ ../../../include/asio/detail/scheduler.hpp \
+ ../../../include/asio/detail/conditionally_enabled_event.hpp \
+ ../../../include/asio/detail/conditionally_enabled_mutex.hpp \
+ ../../../include/asio/detail/null_event.hpp \
+ ../../../include/asio/detail/impl/null_event.ipp \
+ ../../../include/asio/detail/reactor_fwd.hpp \
+ ../../../include/asio/detail/thread.hpp \
+ ../../../include/asio/detail/posix_thread.hpp \
+ ../../../include/asio/detail/impl/posix_thread.ipp \
+ ../../../include/asio/detail/impl/scheduler.ipp \
+ ../../../include/asio/detail/concurrency_hint.hpp \
+ ../../../include/asio/detail/limits.hpp \
+ ../../../include/asio/detail/reactor.hpp \
+ ../../../include/asio/detail/epoll_reactor.hpp \
+ ../../../include/asio/detail/object_pool.hpp \
+ ../../../include/asio/detail/reactor_op.hpp \
+ ../../../include/asio/detail/operation.hpp \
+ ../../../include/asio/detail/select_interrupter.hpp \
+ ../../../include/asio/detail/eventfd_select_interrupter.hpp \
+ ../../../include/asio/detail/impl/eventfd_select_interrupter.ipp \
+ /usr/include/sys/eventfd.h /usr/include/bits/eventfd.h \
+ ../../../include/asio/detail/timer_queue_base.hpp \
+ ../../../include/asio/detail/timer_queue_set.hpp \
+ ../../../include/asio/detail/impl/timer_queue_set.ipp \
+ ../../../include/asio/detail/wait_op.hpp /usr/include/sys/timerfd.h \
+ /usr/include/bits/timerfd.h \
+ ../../../include/asio/detail/impl/epoll_reactor.hpp \
+ ../../../include/asio/detail/impl/epoll_reactor.ipp \
+ /usr/include/sys/epoll.h /usr/include/bits/epoll.h \
+ ../../../include/asio/detail/scheduler_thread_info.hpp \
+ ../../../include/asio/detail/signal_blocker.hpp \
+ ../../../include/asio/detail/posix_signal_blocker.hpp \
+ /usr/include/c++/11.1.0/csignal /usr/include/signal.h \
+ /usr/include/bits/signum-generic.h /usr/include/bits/signum-arch.h \
+ /usr/include/bits/types/sig_atomic_t.h \
+ /usr/include/bits/types/siginfo_t.h /usr/include/bits/siginfo-arch.h \
+ /usr/include/bits/siginfo-consts.h \
+ /usr/include/bits/siginfo-consts-arch.h \
+ /usr/include/bits/types/sigval_t.h /usr/include/bits/sigevent-consts.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/bits/types/stack_t.h /usr/include/sys/ucontext.h \
+ /usr/include/bits/sigstack.h /usr/include/bits/ss_flags.h \
+ /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
+ /usr/include/bits/signal_ext.h \
+ ../../../include/asio/detail/thread_group.hpp \
+ ../../../include/asio/impl/system_context.hpp \
+ ../../../include/asio/impl/system_context.ipp \
+ ../../../include/asio/detail/handler_cont_helpers.hpp \
+ ../../../include/asio/handler_continuation_hook.hpp \
+ ../../../include/asio/detail/chrono.hpp /usr/include/c++/11.1.0/chrono \
+ /usr/include/c++/11.1.0/ratio /usr/include/c++/11.1.0/ctime \
+ /usr/include/c++/11.1.0/bits/parse_numbers.h \
+ ../../../include/asio/impl/io_context.hpp \
+ ../../../include/asio/detail/completion_handler.hpp \
+ ../../../include/asio/detail/handler_work.hpp \
+ ../../../include/asio/executor_work_guard.hpp \
+ ../../../include/asio/impl/io_context.ipp \
+ ../../../include/asio/ip/basic_resolver_results.hpp \
+ ../../../include/asio/detail/resolver_service.hpp \
+ ../../../include/asio/detail/resolve_endpoint_op.hpp \
+ ../../../include/asio/detail/resolve_op.hpp \
+ ../../../include/asio/detail/resolve_query_op.hpp \
+ ../../../include/asio/detail/resolver_service_base.hpp \
+ ../../../include/asio/detail/impl/resolver_service_base.ipp \
+ ../../../include/asio/ip/host_name.hpp \
+ ../../../include/asio/ip/impl/host_name.ipp \
+ ../../../include/asio/ip/network_v4.hpp \
+ ../../../include/asio/ip/impl/network_v4.hpp \
+ ../../../include/asio/ip/impl/network_v4.ipp \
+ ../../../include/asio/ip/network_v6.hpp \
+ ../../../include/asio/ip/impl/network_v6.hpp \
+ ../../../include/asio/ip/impl/network_v6.ipp \
+ ../../../include/asio/ip/tcp.hpp \
+ ../../../include/asio/basic_socket_acceptor.hpp \
+ ../../../include/asio/basic_socket.hpp ../../../include/asio/post.hpp \
+ ../../../include/asio/impl/post.hpp \
+ ../../../include/asio/detail/work_dispatcher.hpp \
+ ../../../include/asio/socket_base.hpp \
+ ../../../include/asio/detail/io_control.hpp \
+ ../../../include/asio/detail/socket_option.hpp \
+ ../../../include/asio/detail/reactive_socket_service.hpp \
+ ../../../include/asio/buffer.hpp \
+ ../../../include/asio/detail/array_fwd.hpp \
+ ../../../include/asio/detail/is_buffer_sequence.hpp \
+ ../../../include/asio/detail/buffer_sequence_adapter.hpp \
+ ../../../include/asio/detail/impl/buffer_sequence_adapter.ipp \
+ ../../../include/asio/detail/reactive_null_buffers_op.hpp \
+ ../../../include/asio/detail/reactive_socket_accept_op.hpp \
+ ../../../include/asio/detail/socket_holder.hpp \
+ ../../../include/asio/detail/reactive_socket_connect_op.hpp \
+ ../../../include/asio/detail/reactive_socket_recvfrom_op.hpp \
+ ../../../include/asio/detail/reactive_socket_sendto_op.hpp \
+ ../../../include/asio/detail/reactive_socket_service_base.hpp \
+ ../../../include/asio/detail/reactive_socket_recv_op.hpp \
+ ../../../include/asio/detail/reactive_socket_recvmsg_op.hpp \
+ ../../../include/asio/detail/reactive_socket_send_op.hpp \
+ ../../../include/asio/detail/reactive_wait_op.hpp \
+ ../../../include/asio/detail/impl/reactive_socket_service_base.ipp \
+ ../../../include/asio/basic_socket_iostream.hpp \
+ ../../../include/asio/basic_socket_streambuf.hpp \
+ ../../../include/asio/basic_stream_socket.hpp \
+ ../../../include/asio/steady_timer.hpp \
+ ../../../include/asio/basic_waitable_timer.hpp \
+ ../../../include/asio/detail/chrono_time_traits.hpp \
+ ../../../include/asio/detail/deadline_timer_service.hpp \
+ ../../../include/asio/detail/timer_queue.hpp \
+ ../../../include/asio/detail/date_time_fwd.hpp \
+ ../../../include/asio/detail/timer_queue_ptime.hpp \
+ ../../../include/asio/detail/timer_scheduler.hpp \
+ ../../../include/asio/detail/timer_scheduler_fwd.hpp \
+ ../../../include/asio/detail/wait_handler.hpp \
+ ../../../include/asio/wait_traits.hpp ../../../include/asio/ip/udp.hpp \
+ ../../../include/asio/basic_datagram_socket.hpp \
+ ../../../include/asio/ip/v6_only.hpp \
+ ../../../include/asio/ip/unicast.hpp \
+ ../../../include/asio/ip/detail/socket_option.hpp \
+ ../../../include/asio/ip/multicast.hpp
+/usr/include/stdc-predef.h:
+/usr/include/c++/11.1.0/iostream:
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h:
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h:
+/usr/include/features.h:
+/usr/include/sys/cdefs.h:
+/usr/include/bits/wordsize.h:
+/usr/include/bits/long-double.h:
+/usr/include/gnu/stubs.h:
+/usr/include/gnu/stubs-64.h:
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+/usr/include/c++/11.1.0/pstl/pstl_config.h:
+/usr/include/c++/11.1.0/ostream:
+/usr/include/c++/11.1.0/ios:
+/usr/include/c++/11.1.0/iosfwd:
+/usr/include/c++/11.1.0/bits/stringfwd.h:
+/usr/include/c++/11.1.0/bits/memoryfwd.h:
+/usr/include/c++/11.1.0/bits/postypes.h:
+/usr/include/c++/11.1.0/cwchar:
+/usr/include/wchar.h:
+/usr/include/bits/libc-header-start.h:
+/usr/include/bits/floatn.h:
+/usr/include/bits/floatn-common.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h:
+/usr/include/bits/wchar.h:
+/usr/include/bits/types/wint_t.h:
+/usr/include/bits/types/mbstate_t.h:
+/usr/include/bits/types/__mbstate_t.h:
+/usr/include/bits/types/__FILE.h:
+/usr/include/bits/types/FILE.h:
+/usr/include/bits/types/locale_t.h:
+/usr/include/bits/types/__locale_t.h:
+/usr/include/c++/11.1.0/exception:
+/usr/include/c++/11.1.0/bits/exception.h:
+/usr/include/c++/11.1.0/bits/exception_ptr.h:
+/usr/include/c++/11.1.0/bits/exception_defines.h:
+/usr/include/c++/11.1.0/bits/cxxabi_init_exception.h:
+/usr/include/c++/11.1.0/typeinfo:
+/usr/include/c++/11.1.0/bits/hash_bytes.h:
+/usr/include/c++/11.1.0/new:
+/usr/include/c++/11.1.0/bits/nested_exception.h:
+/usr/include/c++/11.1.0/bits/move.h:
+/usr/include/c++/11.1.0/type_traits:
+/usr/include/c++/11.1.0/bits/char_traits.h:
+/usr/include/c++/11.1.0/bits/stl_algobase.h:
+/usr/include/c++/11.1.0/bits/functexcept.h:
+/usr/include/c++/11.1.0/bits/cpp_type_traits.h:
+/usr/include/c++/11.1.0/ext/type_traits.h:
+/usr/include/c++/11.1.0/ext/numeric_traits.h:
+/usr/include/c++/11.1.0/bits/stl_pair.h:
+/usr/include/c++/11.1.0/bits/stl_iterator_base_types.h:
+/usr/include/c++/11.1.0/bits/stl_iterator_base_funcs.h:
+/usr/include/c++/11.1.0/bits/concept_check.h:
+/usr/include/c++/11.1.0/debug/assertions.h:
+/usr/include/c++/11.1.0/bits/stl_iterator.h:
+/usr/include/c++/11.1.0/bits/ptr_traits.h:
+/usr/include/c++/11.1.0/debug/debug.h:
+/usr/include/c++/11.1.0/bits/predefined_ops.h:
+/usr/include/c++/11.1.0/cstdint:
+/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h:
+/usr/include/stdint.h:
+/usr/include/bits/types.h:
+/usr/include/bits/timesize.h:
+/usr/include/bits/typesizes.h:
+/usr/include/bits/time64.h:
+/usr/include/bits/stdint-intn.h:
+/usr/include/bits/stdint-uintn.h:
+/usr/include/c++/11.1.0/bits/localefwd.h:
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++locale.h:
+/usr/include/c++/11.1.0/clocale:
+/usr/include/locale.h:
+/usr/include/bits/locale.h:
+/usr/include/c++/11.1.0/cctype:
+/usr/include/ctype.h:
+/usr/include/bits/endian.h:
+/usr/include/bits/endianness.h:
+/usr/include/c++/11.1.0/bits/ios_base.h:
+/usr/include/c++/11.1.0/ext/atomicity.h:
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/gthr.h:
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/gthr-default.h:
+/usr/include/pthread.h:
+/usr/include/sched.h:
+/usr/include/bits/types/time_t.h:
+/usr/include/bits/types/struct_timespec.h:
+/usr/include/bits/sched.h:
+/usr/include/bits/types/struct_sched_param.h:
+/usr/include/bits/cpu-set.h:
+/usr/include/time.h:
+/usr/include/bits/time.h:
+/usr/include/bits/timex.h:
+/usr/include/bits/types/struct_timeval.h:
+/usr/include/bits/types/clock_t.h:
+/usr/include/bits/types/struct_tm.h:
+/usr/include/bits/types/clockid_t.h:
+/usr/include/bits/types/timer_t.h:
+/usr/include/bits/types/struct_itimerspec.h:
+/usr/include/bits/pthreadtypes.h:
+/usr/include/bits/thread-shared-types.h:
+/usr/include/bits/pthreadtypes-arch.h:
+/usr/include/bits/struct_mutex.h:
+/usr/include/bits/struct_rwlock.h:
+/usr/include/bits/setjmp.h:
+/usr/include/bits/types/__sigset_t.h:
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/atomic_word.h:
+/usr/include/sys/single_threaded.h:
+/usr/include/c++/11.1.0/bits/locale_classes.h:
+/usr/include/c++/11.1.0/string:
+/usr/include/c++/11.1.0/bits/allocator.h:
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++allocator.h:
+/usr/include/c++/11.1.0/ext/new_allocator.h:
+/usr/include/c++/11.1.0/bits/ostream_insert.h:
+/usr/include/c++/11.1.0/bits/cxxabi_forced.h:
+/usr/include/c++/11.1.0/bits/stl_function.h:
+/usr/include/c++/11.1.0/backward/binders.h:
+/usr/include/c++/11.1.0/bits/range_access.h:
+/usr/include/c++/11.1.0/initializer_list:
+/usr/include/c++/11.1.0/bits/basic_string.h:
+/usr/include/c++/11.1.0/ext/alloc_traits.h:
+/usr/include/c++/11.1.0/bits/alloc_traits.h:
+/usr/include/c++/11.1.0/bits/stl_construct.h:
+/usr/include/c++/11.1.0/string_view:
+/usr/include/c++/11.1.0/bits/functional_hash.h:
+/usr/include/c++/11.1.0/bits/ranges_base.h:
+/usr/include/c++/11.1.0/bits/string_view.tcc:
+/usr/include/c++/11.1.0/ext/string_conversions.h:
+/usr/include/c++/11.1.0/cstdlib:
+/usr/include/stdlib.h:
+/usr/include/bits/waitflags.h:
+/usr/include/bits/waitstatus.h:
+/usr/include/sys/types.h:
+/usr/include/endian.h:
+/usr/include/bits/byteswap.h:
+/usr/include/bits/uintn-identity.h:
+/usr/include/sys/select.h:
+/usr/include/bits/select.h:
+/usr/include/bits/types/sigset_t.h:
+/usr/include/alloca.h:
+/usr/include/bits/stdlib-bsearch.h:
+/usr/include/bits/stdlib-float.h:
+/usr/include/c++/11.1.0/bits/std_abs.h:
+/usr/include/c++/11.1.0/cstdio:
+/usr/include/stdio.h:
+/usr/include/bits/types/__fpos_t.h:
+/usr/include/bits/types/__fpos64_t.h:
+/usr/include/bits/types/struct_FILE.h:
+/usr/include/bits/types/cookie_io_functions_t.h:
+/usr/include/bits/stdio_lim.h:
+/usr/include/bits/stdio.h:
+/usr/include/c++/11.1.0/cerrno:
+/usr/include/errno.h:
+/usr/include/bits/errno.h:
+/usr/include/linux/errno.h:
+/usr/include/asm/errno.h:
+/usr/include/asm-generic/errno.h:
+/usr/include/asm-generic/errno-base.h:
+/usr/include/bits/types/error_t.h:
+/usr/include/c++/11.1.0/bits/charconv.h:
+/usr/include/c++/11.1.0/bits/basic_string.tcc:
+/usr/include/c++/11.1.0/bits/locale_classes.tcc:
+/usr/include/c++/11.1.0/system_error:
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/error_constants.h:
+/usr/include/c++/11.1.0/stdexcept:
+/usr/include/c++/11.1.0/streambuf:
+/usr/include/c++/11.1.0/bits/streambuf.tcc:
+/usr/include/c++/11.1.0/bits/basic_ios.h:
+/usr/include/c++/11.1.0/bits/locale_facets.h:
+/usr/include/c++/11.1.0/cwctype:
+/usr/include/wctype.h:
+/usr/include/bits/wctype-wchar.h:
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/ctype_base.h:
+/usr/include/c++/11.1.0/bits/streambuf_iterator.h:
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+/usr/include/c++/11.1.0/bits/locale_facets.tcc:
+/usr/include/c++/11.1.0/bits/basic_ios.tcc:
+/usr/include/c++/11.1.0/bits/ostream.tcc:
+/usr/include/c++/11.1.0/istream:
+/usr/include/c++/11.1.0/bits/istream.tcc:
+../../../include/asio/ts/internet.hpp:
+../../../include/asio/ip/address.hpp:
+../../../include/asio/detail/config.hpp:
+/usr/include/unistd.h:
+/usr/include/bits/posix_opt.h:
+/usr/include/bits/environments.h:
+/usr/include/bits/confname.h:
+/usr/include/bits/getopt_posix.h:
+/usr/include/bits/getopt_core.h:
+/usr/include/bits/unistd_ext.h:
+/usr/include/linux/version.h:
+../../../include/asio/detail/throw_exception.hpp:
+../../../include/asio/detail/string_view.hpp:
+../../../include/asio/detail/type_traits.hpp:
+../../../include/asio/error_code.hpp:
+../../../include/asio/detail/push_options.hpp:
+../../../include/asio/detail/pop_options.hpp:
+../../../include/asio/impl/error_code.ipp:
+/usr/include/c++/11.1.0/cstring:
+/usr/include/string.h:
+/usr/include/strings.h:
+../../../include/asio/detail/local_free_on_block_exit.hpp:
+../../../include/asio/detail/socket_types.hpp:
+/usr/include/sys/ioctl.h:
+/usr/include/bits/ioctls.h:
+/usr/include/asm/ioctls.h:
+/usr/include/asm-generic/ioctls.h:
+/usr/include/linux/ioctl.h:
+/usr/include/asm/ioctl.h:
+/usr/include/asm-generic/ioctl.h:
+/usr/include/bits/ioctl-types.h:
+/usr/include/sys/ttydefaults.h:
+/usr/include/poll.h:
+/usr/include/sys/poll.h:
+/usr/include/bits/poll.h:
+/usr/include/sys/stat.h:
+/usr/include/bits/stat.h:
+/usr/include/bits/struct_stat.h:
+/usr/include/bits/statx.h:
+/usr/include/linux/stat.h:
+/usr/include/linux/types.h:
+/usr/include/asm/types.h:
+/usr/include/asm-generic/types.h:
+/usr/include/asm-generic/int-ll64.h:
+/usr/include/asm/bitsperlong.h:
+/usr/include/asm-generic/bitsperlong.h:
+/usr/include/linux/posix_types.h:
+/usr/include/linux/stddef.h:
+/usr/include/asm/posix_types.h:
+/usr/include/asm/posix_types_64.h:
+/usr/include/asm-generic/posix_types.h:
+/usr/include/bits/statx-generic.h:
+/usr/include/bits/types/struct_statx_timestamp.h:
+/usr/include/bits/types/struct_statx.h:
+/usr/include/fcntl.h:
+/usr/include/bits/fcntl.h:
+/usr/include/bits/fcntl-linux.h:
+/usr/include/bits/types/struct_iovec.h:
+/usr/include/linux/falloc.h:
+/usr/include/sys/socket.h:
+/usr/include/bits/socket.h:
+/usr/include/bits/socket_type.h:
+/usr/include/bits/sockaddr.h:
+/usr/include/asm/socket.h:
+/usr/include/asm-generic/socket.h:
+/usr/include/asm/sockios.h:
+/usr/include/asm-generic/sockios.h:
+/usr/include/bits/types/struct_osockaddr.h:
+/usr/include/sys/uio.h:
+/usr/include/bits/uio_lim.h:
+/usr/include/bits/uio-ext.h:
+/usr/include/sys/un.h:
+/usr/include/netinet/in.h:
+/usr/include/bits/in.h:
+/usr/include/netinet/tcp.h:
+/usr/include/arpa/inet.h:
+/usr/include/netdb.h:
+/usr/include/rpc/netdb.h:
+/usr/include/bits/types/sigevent_t.h:
+/usr/include/bits/types/__sigval_t.h:
+/usr/include/bits/netdb.h:
+/usr/include/net/if.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed/limits.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed/syslimits.h:
+/usr/include/limits.h:
+/usr/include/bits/posix1_lim.h:
+/usr/include/bits/local_lim.h:
+/usr/include/linux/limits.h:
+/usr/include/bits/posix2_lim.h:
+/usr/include/bits/xopen_lim.h:
+../../../include/asio/ip/address_v4.hpp:
+../../../include/asio/detail/array.hpp:
+/usr/include/c++/11.1.0/array:
+/usr/include/c++/11.1.0/utility:
+/usr/include/c++/11.1.0/bits/stl_relops.h:
+../../../include/asio/detail/cstdint.hpp:
+../../../include/asio/detail/winsock_init.hpp:
+/usr/include/c++/11.1.0/functional:
+/usr/include/c++/11.1.0/tuple:
+/usr/include/c++/11.1.0/bits/uses_allocator.h:
+/usr/include/c++/11.1.0/bits/invoke.h:
+/usr/include/c++/11.1.0/bits/refwrap.h:
+/usr/include/c++/11.1.0/bits/std_function.h:
+/usr/include/c++/11.1.0/unordered_map:
+/usr/include/c++/11.1.0/ext/aligned_buffer.h:
+/usr/include/c++/11.1.0/bits/hashtable.h:
+/usr/include/c++/11.1.0/bits/hashtable_policy.h:
+/usr/include/c++/11.1.0/bits/node_handle.h:
+/usr/include/c++/11.1.0/bits/unordered_map.h:
+/usr/include/c++/11.1.0/bits/erase_if.h:
+/usr/include/c++/11.1.0/vector:
+/usr/include/c++/11.1.0/bits/stl_uninitialized.h:
+/usr/include/c++/11.1.0/bits/stl_vector.h:
+/usr/include/c++/11.1.0/bits/stl_bvector.h:
+/usr/include/c++/11.1.0/bits/vector.tcc:
+/usr/include/c++/11.1.0/bits/stl_algo.h:
+/usr/include/c++/11.1.0/bits/algorithmfwd.h:
+/usr/include/c++/11.1.0/bits/stl_heap.h:
+/usr/include/c++/11.1.0/bits/stl_tempbuf.h:
+/usr/include/c++/11.1.0/bits/uniform_int_dist.h:
+../../../include/asio/ip/impl/address_v4.hpp:
+../../../include/asio/detail/throw_error.hpp:
+../../../include/asio/detail/impl/throw_error.ipp:
+../../../include/asio/system_error.hpp:
+../../../include/asio/ip/impl/address_v4.ipp:
+/usr/include/c++/11.1.0/climits:
+/usr/include/c++/11.1.0/limits:
+../../../include/asio/error.hpp:
+../../../include/asio/impl/error.ipp:
+../../../include/asio/detail/socket_ops.hpp:
+../../../include/asio/detail/memory.hpp:
+/usr/include/c++/11.1.0/memory:
+/usr/include/c++/11.1.0/bits/stl_raw_storage_iter.h:
+/usr/include/c++/11.1.0/bits/align.h:
+/usr/include/c++/11.1.0/bit:
+/usr/include/c++/11.1.0/bits/unique_ptr.h:
+/usr/include/c++/11.1.0/bits/shared_ptr.h:
+/usr/include/c++/11.1.0/bits/shared_ptr_base.h:
+/usr/include/c++/11.1.0/bits/allocated_ptr.h:
+/usr/include/c++/11.1.0/ext/concurrence.h:
+/usr/include/c++/11.1.0/bits/shared_ptr_atomic.h:
+/usr/include/c++/11.1.0/bits/atomic_base.h:
+/usr/include/c++/11.1.0/bits/atomic_lockfree_defines.h:
+/usr/include/c++/11.1.0/backward/auto_ptr.h:
+/usr/include/c++/11.1.0/pstl/glue_memory_defs.h:
+/usr/include/c++/11.1.0/pstl/execution_defs.h:
+../../../include/asio/detail/impl/socket_ops.ipp:
+../../../include/asio/detail/assert.hpp:
+/usr/include/c++/11.1.0/cassert:
+/usr/include/assert.h:
+../../../include/asio/ip/address_v6.hpp:
+../../../include/asio/ip/impl/address_v6.hpp:
+../../../include/asio/ip/impl/address_v6.ipp:
+../../../include/asio/ip/bad_address_cast.hpp:
+../../../include/asio/ip/impl/address.hpp:
+../../../include/asio/ip/impl/address.ipp:
+../../../include/asio/ip/address_v4_iterator.hpp:
+../../../include/asio/ip/address_v4_range.hpp:
+../../../include/asio/ip/address_v6_iterator.hpp:
+../../../include/asio/ip/address_v6_range.hpp:
+../../../include/asio/ip/basic_endpoint.hpp:
+../../../include/asio/ip/detail/endpoint.hpp:
+../../../include/asio/ip/detail/impl/endpoint.ipp:
+/usr/include/c++/11.1.0/sstream:
+/usr/include/c++/11.1.0/bits/sstream.tcc:
+../../../include/asio/ip/impl/basic_endpoint.hpp:
+../../../include/asio/ip/basic_resolver_query.hpp:
+../../../include/asio/ip/resolver_query_base.hpp:
+../../../include/asio/ip/resolver_base.hpp:
+../../../include/asio/ip/basic_resolver_entry.hpp:
+../../../include/asio/ip/basic_resolver_iterator.hpp:
+/usr/include/c++/11.1.0/cstddef:
+/usr/include/c++/11.1.0/iterator:
+/usr/include/c++/11.1.0/bits/stream_iterator.h:
+../../../include/asio/ip/basic_resolver.hpp:
+../../../include/asio/any_io_executor.hpp:
+../../../include/asio/execution.hpp:
+../../../include/asio/execution/allocator.hpp:
+../../../include/asio/execution/executor.hpp:
+../../../include/asio/execution/execute.hpp:
+../../../include/asio/execution/detail/as_invocable.hpp:
+../../../include/asio/detail/atomic_count.hpp:
+/usr/include/c++/11.1.0/atomic:
+../../../include/asio/execution/receiver_invocation_error.hpp:
+../../../include/asio/execution/impl/receiver_invocation_error.ipp:
+../../../include/asio/execution/set_done.hpp:
+../../../include/asio/traits/set_done_member.hpp:
+../../../include/asio/traits/set_done_free.hpp:
+../../../include/asio/execution/set_error.hpp:
+../../../include/asio/traits/set_error_member.hpp:
+../../../include/asio/traits/set_error_free.hpp:
+../../../include/asio/execution/set_value.hpp:
+../../../include/asio/detail/variadic_templates.hpp:
+../../../include/asio/traits/set_value_member.hpp:
+../../../include/asio/traits/set_value_free.hpp:
+../../../include/asio/execution/detail/as_receiver.hpp:
+../../../include/asio/traits/execute_member.hpp:
+../../../include/asio/traits/execute_free.hpp:
+../../../include/asio/execution/invocable_archetype.hpp:
+../../../include/asio/traits/equality_comparable.hpp:
+../../../include/asio/execution/scheduler.hpp:
+../../../include/asio/execution/schedule.hpp:
+../../../include/asio/traits/schedule_member.hpp:
+../../../include/asio/traits/schedule_free.hpp:
+../../../include/asio/execution/sender.hpp:
+../../../include/asio/execution/detail/void_receiver.hpp:
+../../../include/asio/execution/receiver.hpp:
+../../../include/asio/execution/connect.hpp:
+../../../include/asio/execution/detail/as_operation.hpp:
+../../../include/asio/traits/start_member.hpp:
+../../../include/asio/execution/operation_state.hpp:
+../../../include/asio/execution/start.hpp:
+../../../include/asio/traits/start_free.hpp:
+../../../include/asio/traits/connect_member.hpp:
+../../../include/asio/traits/connect_free.hpp:
+../../../include/asio/is_applicable_property.hpp:
+../../../include/asio/traits/query_static_constexpr_member.hpp:
+../../../include/asio/traits/static_query.hpp:
+../../../include/asio/execution/any_executor.hpp:
+../../../include/asio/detail/cstddef.hpp:
+../../../include/asio/detail/executor_function.hpp:
+../../../include/asio/detail/handler_alloc_helpers.hpp:
+../../../include/asio/detail/noncopyable.hpp:
+../../../include/asio/detail/recycling_allocator.hpp:
+../../../include/asio/detail/thread_context.hpp:
+../../../include/asio/detail/call_stack.hpp:
+../../../include/asio/detail/tss_ptr.hpp:
+../../../include/asio/detail/keyword_tss_ptr.hpp:
+../../../include/asio/detail/impl/thread_context.ipp:
+../../../include/asio/detail/thread_info_base.hpp:
+../../../include/asio/multiple_exceptions.hpp:
+../../../include/asio/impl/multiple_exceptions.ipp:
+../../../include/asio/associated_allocator.hpp:
+../../../include/asio/handler_alloc_hook.hpp:
+../../../include/asio/impl/handler_alloc_hook.ipp:
+../../../include/asio/detail/handler_invoke_helpers.hpp:
+../../../include/asio/handler_invoke_hook.hpp:
+../../../include/asio/detail/non_const_lvalue.hpp:
+../../../include/asio/detail/scoped_ptr.hpp:
+../../../include/asio/execution/bad_executor.hpp:
+../../../include/asio/execution/impl/bad_executor.ipp:
+../../../include/asio/execution/blocking.hpp:
+../../../include/asio/prefer.hpp:
+../../../include/asio/traits/prefer_free.hpp:
+../../../include/asio/traits/prefer_member.hpp:
+../../../include/asio/traits/require_free.hpp:
+../../../include/asio/traits/require_member.hpp:
+../../../include/asio/traits/static_require.hpp:
+../../../include/asio/query.hpp:
+../../../include/asio/traits/query_member.hpp:
+../../../include/asio/traits/query_free.hpp:
+../../../include/asio/require.hpp:
+../../../include/asio/execution/blocking_adaptation.hpp:
+../../../include/asio/detail/event.hpp:
+../../../include/asio/detail/posix_event.hpp:
+../../../include/asio/detail/impl/posix_event.ipp:
+../../../include/asio/detail/mutex.hpp:
+../../../include/asio/detail/posix_mutex.hpp:
+../../../include/asio/detail/scoped_lock.hpp:
+../../../include/asio/detail/impl/posix_mutex.ipp:
+../../../include/asio/execution/bulk_execute.hpp:
+../../../include/asio/execution/bulk_guarantee.hpp:
+../../../include/asio/execution/detail/bulk_sender.hpp:
+../../../include/asio/traits/bulk_execute_member.hpp:
+../../../include/asio/traits/bulk_execute_free.hpp:
+../../../include/asio/execution/context.hpp:
+/usr/include/c++/11.1.0/any:
+../../../include/asio/execution/context_as.hpp:
+../../../include/asio/execution/mapping.hpp:
+../../../include/asio/execution/occupancy.hpp:
+../../../include/asio/execution/outstanding_work.hpp:
+../../../include/asio/execution/prefer_only.hpp:
+../../../include/asio/execution/relationship.hpp:
+../../../include/asio/execution/submit.hpp:
+../../../include/asio/execution/detail/submit_receiver.hpp:
+../../../include/asio/traits/submit_member.hpp:
+../../../include/asio/traits/submit_free.hpp:
+../../../include/asio/execution_context.hpp:
+../../../include/asio/impl/execution_context.hpp:
+../../../include/asio/detail/handler_type_requirements.hpp:
+../../../include/asio/async_result.hpp:
+../../../include/asio/detail/service_registry.hpp:
+../../../include/asio/detail/impl/service_registry.hpp:
+../../../include/asio/detail/impl/service_registry.ipp:
+../../../include/asio/impl/execution_context.ipp:
+../../../include/asio/detail/io_object_impl.hpp:
+../../../include/asio/io_context.hpp:
+../../../include/asio/detail/wrapped_handler.hpp:
+../../../include/asio/detail/bind_handler.hpp:
+../../../include/asio/associated_executor.hpp:
+../../../include/asio/is_executor.hpp:
+../../../include/asio/detail/is_executor.hpp:
+../../../include/asio/system_executor.hpp:
+../../../include/asio/impl/system_executor.hpp:
+../../../include/asio/detail/executor_op.hpp:
+../../../include/asio/detail/fenced_block.hpp:
+../../../include/asio/detail/std_fenced_block.hpp:
+../../../include/asio/detail/scheduler_operation.hpp:
+../../../include/asio/detail/handler_tracking.hpp:
+../../../include/asio/detail/impl/handler_tracking.ipp:
+../../../include/asio/detail/op_queue.hpp:
+../../../include/asio/detail/global.hpp:
+../../../include/asio/detail/posix_global.hpp:
+../../../include/asio/system_context.hpp:
+../../../include/asio/detail/scheduler.hpp:
+../../../include/asio/detail/conditionally_enabled_event.hpp:
+../../../include/asio/detail/conditionally_enabled_mutex.hpp:
+../../../include/asio/detail/null_event.hpp:
+../../../include/asio/detail/impl/null_event.ipp:
+../../../include/asio/detail/reactor_fwd.hpp:
+../../../include/asio/detail/thread.hpp:
+../../../include/asio/detail/posix_thread.hpp:
+../../../include/asio/detail/impl/posix_thread.ipp:
+../../../include/asio/detail/impl/scheduler.ipp:
+../../../include/asio/detail/concurrency_hint.hpp:
+../../../include/asio/detail/limits.hpp:
+../../../include/asio/detail/reactor.hpp:
+../../../include/asio/detail/epoll_reactor.hpp:
+../../../include/asio/detail/object_pool.hpp:
+../../../include/asio/detail/reactor_op.hpp:
+../../../include/asio/detail/operation.hpp:
+../../../include/asio/detail/select_interrupter.hpp:
+../../../include/asio/detail/eventfd_select_interrupter.hpp:
+../../../include/asio/detail/impl/eventfd_select_interrupter.ipp:
+/usr/include/sys/eventfd.h:
+/usr/include/bits/eventfd.h:
+../../../include/asio/detail/timer_queue_base.hpp:
+../../../include/asio/detail/timer_queue_set.hpp:
+../../../include/asio/detail/impl/timer_queue_set.ipp:
+../../../include/asio/detail/wait_op.hpp:
+/usr/include/sys/timerfd.h:
+/usr/include/bits/timerfd.h:
+../../../include/asio/detail/impl/epoll_reactor.hpp:
+../../../include/asio/detail/impl/epoll_reactor.ipp:
+/usr/include/sys/epoll.h:
+/usr/include/bits/epoll.h:
+../../../include/asio/detail/scheduler_thread_info.hpp:
+../../../include/asio/detail/signal_blocker.hpp:
+../../../include/asio/detail/posix_signal_blocker.hpp:
+/usr/include/c++/11.1.0/csignal:
+/usr/include/signal.h:
+/usr/include/bits/signum-generic.h:
+/usr/include/bits/signum-arch.h:
+/usr/include/bits/types/sig_atomic_t.h:
+/usr/include/bits/types/siginfo_t.h:
+/usr/include/bits/siginfo-arch.h:
+/usr/include/bits/siginfo-consts.h:
+/usr/include/bits/siginfo-consts-arch.h:
+/usr/include/bits/types/sigval_t.h:
+/usr/include/bits/sigevent-consts.h:
+/usr/include/bits/sigaction.h:
+/usr/include/bits/sigcontext.h:
+/usr/include/bits/types/stack_t.h:
+/usr/include/sys/ucontext.h:
+/usr/include/bits/sigstack.h:
+/usr/include/bits/ss_flags.h:
+/usr/include/bits/types/struct_sigstack.h:
+/usr/include/bits/sigthread.h:
+/usr/include/bits/signal_ext.h:
+../../../include/asio/detail/thread_group.hpp:
+../../../include/asio/impl/system_context.hpp:
+../../../include/asio/impl/system_context.ipp:
+../../../include/asio/detail/handler_cont_helpers.hpp:
+../../../include/asio/handler_continuation_hook.hpp:
+../../../include/asio/detail/chrono.hpp:
+/usr/include/c++/11.1.0/chrono:
+/usr/include/c++/11.1.0/ratio:
+/usr/include/c++/11.1.0/ctime:
+/usr/include/c++/11.1.0/bits/parse_numbers.h:
+../../../include/asio/impl/io_context.hpp:
+../../../include/asio/detail/completion_handler.hpp:
+../../../include/asio/detail/handler_work.hpp:
+../../../include/asio/executor_work_guard.hpp:
+../../../include/asio/impl/io_context.ipp:
+../../../include/asio/ip/basic_resolver_results.hpp:
+../../../include/asio/detail/resolver_service.hpp:
+../../../include/asio/detail/resolve_endpoint_op.hpp:
+../../../include/asio/detail/resolve_op.hpp:
+../../../include/asio/detail/resolve_query_op.hpp:
+../../../include/asio/detail/resolver_service_base.hpp:
+../../../include/asio/detail/impl/resolver_service_base.ipp:
+../../../include/asio/ip/host_name.hpp:
+../../../include/asio/ip/impl/host_name.ipp:
+../../../include/asio/ip/network_v4.hpp:
+../../../include/asio/ip/impl/network_v4.hpp:
+../../../include/asio/ip/impl/network_v4.ipp:
+../../../include/asio/ip/network_v6.hpp:
+../../../include/asio/ip/impl/network_v6.hpp:
+../../../include/asio/ip/impl/network_v6.ipp:
+../../../include/asio/ip/tcp.hpp:
+../../../include/asio/basic_socket_acceptor.hpp:
+../../../include/asio/basic_socket.hpp:
+../../../include/asio/post.hpp:
+../../../include/asio/impl/post.hpp:
+../../../include/asio/detail/work_dispatcher.hpp:
+../../../include/asio/socket_base.hpp:
+../../../include/asio/detail/io_control.hpp:
+../../../include/asio/detail/socket_option.hpp:
+../../../include/asio/detail/reactive_socket_service.hpp:
+../../../include/asio/buffer.hpp:
+../../../include/asio/detail/array_fwd.hpp:
+../../../include/asio/detail/is_buffer_sequence.hpp:
+../../../include/asio/detail/buffer_sequence_adapter.hpp:
+../../../include/asio/detail/impl/buffer_sequence_adapter.ipp:
+../../../include/asio/detail/reactive_null_buffers_op.hpp:
+../../../include/asio/detail/reactive_socket_accept_op.hpp:
+../../../include/asio/detail/socket_holder.hpp:
+../../../include/asio/detail/reactive_socket_connect_op.hpp:
+../../../include/asio/detail/reactive_socket_recvfrom_op.hpp:
+../../../include/asio/detail/reactive_socket_sendto_op.hpp:
+../../../include/asio/detail/reactive_socket_service_base.hpp:
+../../../include/asio/detail/reactive_socket_recv_op.hpp:
+../../../include/asio/detail/reactive_socket_recvmsg_op.hpp:
+../../../include/asio/detail/reactive_socket_send_op.hpp:
+../../../include/asio/detail/reactive_wait_op.hpp:
+../../../include/asio/detail/impl/reactive_socket_service_base.ipp:
+../../../include/asio/basic_socket_iostream.hpp:
+../../../include/asio/basic_socket_streambuf.hpp:
+../../../include/asio/basic_stream_socket.hpp:
+../../../include/asio/steady_timer.hpp:
+../../../include/asio/basic_waitable_timer.hpp:
+../../../include/asio/detail/chrono_time_traits.hpp:
+../../../include/asio/detail/deadline_timer_service.hpp:
+../../../include/asio/detail/timer_queue.hpp:
+../../../include/asio/detail/date_time_fwd.hpp:
+../../../include/asio/detail/timer_queue_ptime.hpp:
+../../../include/asio/detail/timer_scheduler.hpp:
+../../../include/asio/detail/timer_scheduler_fwd.hpp:
+../../../include/asio/detail/wait_handler.hpp:
+../../../include/asio/wait_traits.hpp:
+../../../include/asio/ip/udp.hpp:
+../../../include/asio/basic_datagram_socket.hpp:
+../../../include/asio/ip/v6_only.hpp:
+../../../include/asio/ip/unicast.hpp:
+../../../include/asio/ip/detail/socket_option.hpp:
+../../../include/asio/ip/multicast.hpp:
