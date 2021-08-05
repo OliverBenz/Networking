@@ -12,7 +12,7 @@
 #include <asio/ts/internet.hpp>
 
 
-std::vector<char> buffer(20 * 1024);
+std::vector<char> buffer(2 * 1024);
 
 void ReadData(asio::ip::tcp::socket& socket) {
 	socket.async_read_some(asio::buffer(buffer.data(), buffer.size()), 
